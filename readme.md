@@ -4,7 +4,7 @@ This is a python script for converting GeoJSON file in WGS84 (epsg:4326) coordin
 
 When you download OpenStreetMap data, which is in WGS84 reference, you may encounter a systematic offset of the road network to the GPS observations (left). After transformation, the offset is corrected (right). 
 
-![](wgs.png)  |  ![](gcj.png)
+![](demo.png)
 
 ### References
 
