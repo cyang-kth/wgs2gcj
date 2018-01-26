@@ -1,4 +1,4 @@
-### wgs2gcj
+## wgs2gcj
 
 This is a python script for converting GeoJSON file in WGS84 (epsg:4326) coordinate system to the Mars coordinate system (GCJ-02), which is used for encryption of GPS data in China. 
 
