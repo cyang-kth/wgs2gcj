@@ -20,8 +20,8 @@ def wgs2gcj(inputfile,outputfile):
 	            pts[i] =[temp[1],temp[0]]
 	with open(outputfile, 'w') as outfile:
 	    json.dump(data, outfile)
-inputfile = "network.geojson"
-outputfile = "network_gcj_v2.geojson"
+inputfile = "network_wgs.geojson"
+outputfile = "network_gcj.geojson"
 wgs2gcj(inputfile,outputfile)
 
 
